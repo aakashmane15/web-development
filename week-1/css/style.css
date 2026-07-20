@@ -1,0 +1,131 @@
+/* General Body Styles */
+body {
+  background-color: #1a1a1a; /* A dark gray instead of pure black */
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between items */
+}
+
+.logo {
+  width: 22px;
+  height: 22px;
+}
+
+.logo-text {
+  font-weight: 550;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.top-link {
+  color: #cccccc;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.top-link:hover {
+  color: white;
+}
+
+.search-input {
+  background-color: #333333;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: white;
+  width: 150px;
+}
+
+.search-input::placeholder {
+  color: #aaaaaa;
+}
+
+.download-btn {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background-color: #005f9e;
+}
+
+/* Main Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.headline {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.download-button-main {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.download-button-main:hover {
+  background-color: #005f9e;
+}
+
+.sub-text {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.sub-text a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.sub-text a:hover {
+  text-decoration: underline;
+}
+
+/* Editor Image */
+.image-container {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.editor-image {
+  max-width: 100%;
+  width: 900px; /* Adjust width as needed */
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
