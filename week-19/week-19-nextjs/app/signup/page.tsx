@@ -11,10 +11,7 @@ export default function Signup() {
               <div className="text-3xl font-extrabold">Sign up</div>
             </div>
             <div className="pt-2">
-              <LabelledInput
-                label="Username"
-                placeholder="harkirat@gmail.com"
-              />
+              <LabelledInput label="Username" placeholder="test@gmail.com" />
               <LabelledInput
                 label="Password"
                 type={"password"}
